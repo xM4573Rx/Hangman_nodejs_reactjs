@@ -1,0 +1,372 @@
+[
+    {
+        "question": "¿Quién escribió la novela 'Cien años de soledad'?",
+        "answers": ["Pablo Neruda", "Gabriel García Márquez", "Mario Vargas Llosa"],
+        "correct_answer": "Gabriel García Márquez"
+    },
+    {
+        "question": "¿En qué año comenzó la Primera Guerra Mundial?",
+        "answers": ["1914", "1917", "1918"],
+        "correct_answer": "1914"
+    },
+    {
+        "question": "¿En qué país se encuentra la Torre Eiffel?",
+        "answers": ["Italia", "Francia", "Reino Unido"],
+        "correct_answer": "Francia"
+    },
+    {
+        "question": "¿Quién pintó 'La noche estrellada'?",
+        "answers": ["Vincent van Gogh", "Pablo Picasso", "Salvador Dalí"],
+        "correct_answer": "Vincent van Gogh"
+    },
+    {
+        "question": "¿Qué elemento químico tiene el símbolo 'Fe'?",
+        "answers": ["Hierro", "Plata", "Cobre"],
+        "correct_answer": "Hierro"
+    },
+    {
+        "question": "¿Quién fue el primer hombre en pisar la Luna?",
+        "answers": ["Buzz Aldrin", "Neil Armstrong", "Yuri Gagarin"],
+        "correct_answer": "Neil Armstrong"
+    },
+    {
+        "question": "¿Quién escribió la obra de teatro 'Romeo y Julieta'?",
+        "answers": ["William Shakespeare", "Oscar Wilde", "George Bernard Shaw"],
+        "correct_answer": "William Shakespeare"
+    },
+    {
+        "question": "¿Cuál es la capital de Australia?",
+        "answers": ["Sídney", "Melbourne", "Canberra"],
+        "correct_answer": "Canberra"
+    },
+    {
+        "question": "¿En qué país se encuentra el Taj Mahal?",
+        "answers": ["India", "Bangladesh", "Sri Lanka"],
+        "correct_answer": "India"
+    },
+    {
+        "question": "¿En qué año se estrenó la película 'Volver al futuro'?",
+        "answers": ["1985", "1987", "1989"],
+        "correct_answer": "1985"
+    },
+    {
+        "question": "¿Quién escribió 'El Quijote'?",
+        "answers": ["Miguel de Cervantes", "Garcilaso de la Vega", "Federico García Lorca"],
+        "correct_answer": "Miguel de Cervantes"
+    },
+    {
+        "question": "¿Cuál es el río más largo del mundo?",
+        "answers": ["Amazonas", "Nilo", "Misisipi"],
+        "correct_answer": "Amazonas"
+    },
+    {
+        "question": "¿Cuál es el país más grande del mundo?",
+        "answers": ["Estados Unidos", "China", "Rusia"],
+        "correct_answer": "Rusia"
+    },
+    {
+        "question": "¿Qué presidente de Estados Unidos fue conocido como 'el padre de la Constitución'?",
+        "answers": ["Thomas Jefferson", "George Washington", "James Madison"],
+        "correct_answer": "James Madison"
+    },
+    {
+        "question": "¿Cuál es la capital de Corea del Sur?",
+        "answers": ["Busan", "Seúl", "Daegu"],
+        "correct_answer": "Seúl"
+    },
+    {
+        "question": "¿En qué país se encuentra el castillo de Neuschwanstein?",
+        "answers": ["Alemania", "Suiza", "Italia"],
+        "correct_answer": "Alemania"
+    },
+    {
+        "question": "¿Cuál es el océano más grande del mundo?",
+        "answers": ["Atlántico", "Índico", "Pacífico"],
+        "correct_answer": "Pacífico"
+    },
+    {
+        "question": "¿En qué país se encuentra la ciudad de Marrakech?",
+        "answers": ["Marruecos", "Argelia", "Libia"],
+        "correct_answer": "Marruecos"
+    },
+    {
+        "question": "¿Qué presidente de Estados Unidos fue conocido como 'el padre de la independencia'?",
+        "answers": ["George Washington", "John Adams", "Thomas Jefferson"],
+        "correct_answer": "Thomas Jefferson"
+    },
+    {
+        "question": "¿En qué país se encuentra la ciudad de Kiev?",
+        "answers": ["Rusia", "Polonia", "Ucrania"],
+        "correct_answer": "Ucrania"
+    },
+    {
+        "question": "¿Cuál es el país que tiene forma de bota?",
+        "answers": ["España", "Honduras", "Italia"],
+        "correct_answer": "Italia"
+    },
+    {
+        "question": "¿Cuál es el país más poblado de la tierra?",
+        "answers": ["Estados Unidos", "China", "Rusia"],
+        "correct_answer": "China"
+    },
+    {
+        "question": "¿Cuál es la ciudad de los rascacielos?",
+        "answers": ["New York", "Tokio", "Hong Kong"],
+        "correct_answer": "New York"
+    },
+    {
+        "question": "¿En qué país se encuentra ubicada la Casa Rosada?",
+        "answers": ["Argentina", "Chile", "Mexico"],
+        "correct_answer": "Argentina"
+    },
+    {
+        "question": "¿Cuál es la capital de Nicaragua?",
+        "answers": ["Santiago", "Brasilia", "Managua"],
+        "correct_answer": "Managua"
+    },
+    {
+        "question": "¿En qué país está ubicada la ciudad de Medellín?",
+        "answers": ["Colombia", "Venezuela", "Perú"],
+        "correct_answer": "Colombia"
+    },
+    {
+        "question": "¿En qué continente se encuentra Surinam?",
+        "answers": ["África", "América del Sur", "Oceanía"],
+        "correct_answer": "América del sur"
+    },
+    {
+        "question": "¿Cuál es la nación más pequeña del mundo?",
+        "answers": ["Andorra", "Mónaco", "Ciudad del Vaticano"],
+        "correct_answer": "Ciudad del Vaticano"
+    },
+    {
+        "question": "¿Cuál es la única ciudad que está en dos continentes distintos?",
+        "answers": ["Moscú", "Estambul", "Berlín"],
+        "correct_answer": "Estambul"
+    },
+    {
+        "question": "¿Cuál es la ciudad italiana conocida como «la novia del mar»?",
+        "answers": ["Roma", "Florencia", "Venecia"],
+        "correct_answer": "Venecia"
+    },
+    {
+        "question": "¿Cuál es la cascada más alta del mundo?",
+        "answers": ["El Salto del Ángel", "Cataratas de Iguazú", "Cataratas del Niáraga"],
+        "correct_answer": "El Salto del Ángel"
+    },
+    {
+        "question": "¿Cuándo terminó la II Guerra Mundial?",
+        "answers": ["1945", "1947", "1943"],
+        "correct_answer": "1945"
+    },
+    {
+        "question": "¿En qué año llegó Cristobal Colón a América?",
+        "answers": ["1429", "1492", "1592"],
+        "correct_answer": "1492"
+    },
+    {
+        "question": "¿Quién es el padre del psicoanálisis?",
+        "answers": ["Sigmund Freud", "Carl Gustav Jung", "Skinner"],
+        "correct_answer": "Sigmund Freud"
+    },
+    {
+        "question": "¿Cuál es el libro sagrado de los musulmanes?",
+        "answers": ["La Biblia", "El Talmud", "El Corán"],
+        "correct_answer": "El Corán"
+    },
+    {
+        "question": "¿En qué país se usó la primera bomba atómica?",
+        "answers": ["Rusia", "Estados Unidos", "Japón"],
+        "correct_answer": "Japón"
+    },
+    {
+        "question": "¿Cuál es el idioma más antiguo que pervive en Europa?",
+        "answers": ["Vasco", "Inglés", "Francés"],
+        "correct_answer": "Vasco"
+    },
+    {
+        "question": "¿Cómo se llama la primera mujer que viajó al espacio?",
+        "answers": ["Valentina Tereshkova", "Alexandra Tereshkova", "Amanda Tereshkova"],
+        "correct_answer": "Valentina Tereshkova"
+    },
+    {
+        "question": "¿En qué guerra participó Juana de Arco?",
+        "answers": ["Independencia francesa", "Guerra de los 100 años", "Guerra Civil Española"],
+        "correct_answer": "Guerra de los 100 años"
+    },
+    {
+        "question": "¿Quién fue el primer emperador romano?",
+        "answers": ["César Augusto", "Julio Cesar", "Marco Aurelia"],
+        "correct_answer": "César Augusto"
+    },
+    {
+        "question": "¿En qué isla murió Napoleón?",
+        "answers": ["Sicilia", "Santa Elena", "Creta"],
+        "correct_answer": "Santa Elena"
+    },
+    {
+        "question": "¿Qué año solo tuvo 355 días?",
+        "answers": ["1582", "1615", "1823"],
+        "correct_answer": "1582"
+    },
+    {
+        "question": "¿Quién escribió La Odisea?",
+        "answers": ["Homero", "Virgilio", "Cervantes"],
+        "correct_answer": "Homero"
+    },
+    {
+        "question": "¿Cuál es la obra más importante de la literatura en español?",
+        "answers": ["El Principito", "Don Quijote de la Mancha", "Cien años de soledad"],
+        "correct_answer": "Don Quijote de la Mancha"
+    },
+    {
+        "question": "¿Quién pintó el famoso cuadro La última cena?",
+        "answers": ["Rembrandt", "Velazquez", "Leonardo da Vinci"],
+        "correct_answer": "Leonardo da Vinci"
+    },
+    {
+        "question": "¿Cómo se llama el Himno Nacional de Francia?",
+        "answers": ["La Internacional", "La Marsellesa", "La solitaria"],
+        "correct_answer": "La Marsellesa"
+    },
+    {
+        "question": "¿A qué se denomina séptimo arte?",
+        "answers": ["Pintura", "Escultura", "Cine"],
+        "correct_answer": "Cine"
+    },
+    {
+        "question": "¿Qué es un melómano?",
+        "answers": ["Un amante de la música", "Un amante del cine", "Un amabte de los cómics"],
+        "correct_answer": "Un amante de la música"
+    },
+    {
+        "question": "¿Cuáles son las notas musicales?",
+        "answers": ["Do, Re, Mi", "Do, Re, Mi, Sol, La, Si, Do", "Do, Re, Mi, Fa, Sol, La, Si"],
+        "correct_answer": "Do, Re, Mi, Fa, Sol, La, Si"
+    },
+    {
+        "question": "¿Quién es denominado el Rey del Rock and Roll en Estados Unidos?",
+        "answers": ["Bruce Springsteen", "Michael Jackson", "Elvis Presley"],
+        "correct_answer": "Elvis Presley"
+    },
+    {
+        "question": "¿Cuál es el nombre de la artista mexicana conocida como «la Doña»?",
+        "answers": ["María Félix", "Paulina Rubio", "Frida Kahlo"],
+        "correct_answer": "María Félix"
+    },
+    {
+        "question": "¿Cuál es el elemento químico más abundante en la corteza terrestre?",
+        "answers": ["Oxígeno", "Nitrógeno", "Carbono"],
+        "correct_answer": "Oxígeno"
+    },
+    {
+        "question": "¿Cómo se denomina al resultado de una multiplicación?",
+        "answers": ["Múltiplo", "Resultado", "Producto"],
+        "correct_answer": "Producto"
+    },
+    {
+        "question": "¿A cuánto equivale el numero Pi?",
+        "answers": ["3.1614", "3.1416", "3.416"],
+        "correct_answer": "3.1416"
+    },
+    {
+        "question": "¿Cuál fue el primer metal que emplearon los seres humanos?",
+        "answers": ["Bronce", "Acero", "Cobre"],
+        "correct_answer": "Cobre"
+    },
+    {
+        "question": "¿Cuál es el primero de los números primos?",
+        "answers": ["0", "1", "2"],
+        "correct_answer": "2"
+    },
+    {
+        "question": "¿Cómo se denomina al tipo de triángulo que tiene sus tres lados iguales?",
+        "answers": ["Isósceles", "Equilátero", "Rectángulo"],
+        "correct_answer": "Equilátero"
+    },
+    {
+        "question": "¿Cuál es el primer elemento de la Tabla periódica?",
+        "answers": ["Helio", "Argón", "Hidrógeno"],
+        "correct_answer": "Hidrógeno"
+    },
+    {
+        "question": "¿Cómo se le denomina al centro de un átomo?",
+        "answers": ["Electrón", "Núcleo", "Protón"],
+        "correct_answer": "Núcleo"
+    },
+    {
+        "question": "¿Cuál es el gas que se encuentra en mayor cantidad en el aire que respiramos?",
+        "answers": ["Nitrógeno", "Oxígeno", "Carbono"],
+        "correct_answer": "Nitrógeno"
+    },
+    {
+        "question": "¿Cuál es el símbolo químico del oro?",
+        "answers": ["Or", "Au", "Ao"],
+        "correct_answer": "Au"
+    },
+    {
+        "question": "¿Qué es el cobalto?",
+        "answers": ["Un mineral", "Un vegetal", "Un animal"],
+        "correct_answer": "Un mineral"
+    },
+    {
+        "question": "¿Qué se le agrega al hierro para hacer acero?",
+        "answers": ["Oxígeno", "Carbono", "Nitrógeno"],
+        "correct_answer": "Carbono"
+    },
+    {
+        "question": "¿En qué parte del cuerpo se produce la insulina?",
+        "answers": ["Hígado", "Pulmones", "Páncreas"],
+        "correct_answer": "Páncreas"
+    },
+    {
+        "question": "¿Qué rama de la biología estudia a los animales?",
+        "answers": ["Zoología", "Fauna", "Medicina"],
+        "correct_answer": "Zoología"
+    },
+    {
+        "question": "¿Cuántas patas tiene una araña?",
+        "answers": ["6", "10", "8"],
+        "correct_answer": "8"
+    },
+    {
+        "question": "¿Cuál es el animal más rápido del mundo?",
+        "answers": ["Cóndor", "Leopardo", "Guepardo"],
+        "correct_answer": "Guepardo"
+    },
+    {
+        "question": "¿Cuál es el único mamífero que puede volar?",
+        "answers": ["Murciélago", "Avestruz", "Águila"],
+        "correct_answer": "Murciélago"
+    },
+    {
+        "question": "¿Cómo se llama el proceso por medio del cual las plantas obtienen su alimento?",
+        "answers": ["Biosíntesos", "Fotosíntesis", "Luminosíntesis"],
+        "correct_answer": "Fotosíntesis"
+    },
+    {
+        "question": "¿Cómo se denomina a los animales que nacen de un  huevo?",
+        "answers": ["Huevíparos", "Vivíparos", "Ovíparos"],
+        "correct_answer": "Ovíparos"
+    },
+    {
+        "question": "¿Cuál es el ave voladora más grande del mundo?",
+        "answers": ["Águila real", "Condor Andino", "Halcón"],
+        "correct_answer": "Condor Andino"
+    },
+    {
+        "question": "¿Cuántos corazones tienen los pulpos?",
+        "answers": ["1", "2", "3"],
+        "correct_answer": "3"
+    },
+    {
+        "question": "¿Cuál es la rama de la biología que estudia las plantas?",
+        "answers": ["Zoología", "Botánica", "Mineralogía"],
+        "correct_answer": "Botánica"
+    },
+    {
+        "question": "¿Cuántos huesos tiene en total un ser humano?",
+        "answers": ["60", "206", "416"],
+        "correct_answer": "206"
+    }
+]
