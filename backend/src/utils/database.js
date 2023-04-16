@@ -22,29 +22,3 @@ const uploadData = async () => {
     console.log('Error', error)
   }
 }
-
-const readAllData = async () => {
-  try {
-    const data = await QuestionModel.find({});
-    console.log(data)
-    process.exit()
-  } catch (error) {
-    console.log('Error', error)
-  }
-}
-
-const readRandomData = async () => {
-  try {
-    const data = await QuestionModel.aggregate([{$sample: {size: 5}}]);
-    console.log(data)
-    process.exit()
-  } catch (error) {
-    console.log('Error', error)
-  }
-}
-
-module.exports = {
-  uploadData, 
-  readAllData, 
-  readRandomData 
-}

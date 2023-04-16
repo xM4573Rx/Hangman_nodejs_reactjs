@@ -3,15 +3,11 @@ const express = require('express')
 const app = express()
 
 // Settings
-app.set('port', process.env.PORT || 3000)
+app.set('port', process.env.PORT || 4000)
 
 // Middleware
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
-
-// Default route
-app.get("/", (req, res) => {
-    res.send("Hello")
-})
+app.use('/', require('../routes/notes.routes'))
 
 module.exports = app
