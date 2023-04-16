@@ -4,7 +4,9 @@ const QuestionModel = require('../models/question')
 
 const questions = JSON.parse(fs.readFileSync(require('path').resolve(__dirname, 'data.json')))
 
-const url = 'mongodb://127.0.0.1/hangman_nodejs_database'
+const url = process.env.MONGODB_URI
+  ? process.env.MONGODB_URI
+  : 'mongodb://localhost/datatest'
 
 mongoose.connect(url, {})
 .then(() => console.log('Connected to mongo'))
