@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import './Hangman.css';
 
 const Hangman = () => {
@@ -17,6 +18,10 @@ const Hangman = () => {
 
   const gameWon = word.split('').every((letter) => guesses.includes(letter));
   const gameLost = remainingGuesses === 0;
+
+  axios.get('http://localhost:4000').then((response) => {
+    console.log(response.data);
+  })
 
   return (
     <div className="hangman-container">
