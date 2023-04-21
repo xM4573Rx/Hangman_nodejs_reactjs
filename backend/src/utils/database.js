@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-const QuestionModel = require('../models/question')
 
 const url = process.env.MONGODB_URI
   ? process.env.MONGODB_URI

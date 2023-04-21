@@ -132,7 +132,7 @@
     {
         "question": "¿En qué continente se encuentra Surinam?",
         "answers": ["África", "América del Sur", "Oceanía"],
-        "correct_answer": "América del sur"
+        "correct_answer": "América del Sur"
     },
     {
         "question": "¿Cuál es la nación más pequeña del mundo?",
@@ -236,7 +236,7 @@
     },
     {
         "question": "¿Qué es un melómano?",
-        "answers": ["Un amante de la música", "Un amante del cine", "Un amabte de los cómics"],
+        "answers": ["Un amante de la música", "Un amante del cine", "Un amante de los cómics"],
         "correct_answer": "Un amante de la música"
     },
     {

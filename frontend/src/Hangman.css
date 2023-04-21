@@ -2,7 +2,6 @@
     max-width: 500px;
     margin: auto;
     text-align: center;
-    padding: 20px;
   }
   
   .word-display {
@@ -33,15 +32,95 @@ margin-bottom: 20px;
 
 button {
 margin: 5px;
-width: 40px;
-height: 40px;
 border: 1px solid black;
 font-weight: bold;
-font-size: 24px;
+font-size: 20px;
 background-color: #f5f5f5;
 border-radius: 5px;
 }
 
-button:disabled {
-background-color: #dddddd;
+.buttonRight {
+  background-color: #9CCC65;
+}
+
+.buttonWrong {
+  background-color: #EF5350;
+}
+
+.hangman-figure {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.figure-0 .figure-head,
+.figure-0 .figure-body,
+.figure-0 .figure-arm-left,
+.figure-0 .figure-arm-right,
+.figure-0 .figure-leg-left,
+.figure-0 .figure-leg-right {
+  display: none;
+}
+
+.figure-1 .figure-head {
+  display: block;
+}
+
+.figure-2 .figure-head,
+.figure-3 .figure-head,
+.figure-4 .figure-head {
+  display: block;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  margin-bottom: 20px;
+}
+
+.figure-2 .figure-body {
+  display: block;
+  width: 10px;
+  height: 100px;
+  background-color: #000;
+  margin: 0 auto;
+}
+
+.figure-3 .figure-arm-left {
+  display: block;
+  position: relative;
+  top: -80px;
+  left: -20px;
+  width: 20px;
+  height: 80px;
+  background-color: #000;
+}
+
+.figure-3 .figure-arm-right {
+  display: block;
+  position: relative;
+  top: -160px;
+  left: 10px;
+  width: 20px;
+  height: 80px;
+  background-color: #000;
+}
+
+.figure-4 .figure-leg-left {
+  display: block;
+  position: relative;
+  top: -80px;
+  left: -10px;
+  width: 20px;
+  height: 80px;
+  background-color: #000;
+}
+
+.figure-4 .figure-leg-right {
+  display: block;
+  position: relative;
+  top: -160px;
+  left: 30px;
+  width: 20px;
+  height: 80px;
+  background-color: #000;
 }

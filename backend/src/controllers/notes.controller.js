@@ -10,7 +10,6 @@ notesCtrl.setNotes = async () => {
     try {
         await QuestionModel.create(questions)
         console.log('Data successfully upload')
-        process.exit()
       } catch (error) {
         console.log('Error', error)
       }
@@ -18,7 +17,7 @@ notesCtrl.setNotes = async () => {
 
 notesCtrl.getNotes = async (req, res) => {
     try {
-        const data = await QuestionModel.aggregate([{$sample: {size: 5}}])
+        const data = await QuestionModel.aggregate([{$sample: {size: 10}}])
         res.json(data)
     } catch (error) {
         console.log('Error', error)
