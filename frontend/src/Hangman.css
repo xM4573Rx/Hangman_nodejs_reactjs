@@ -30,6 +30,11 @@ justify-content: center;
 margin-bottom: 20px;
 }
 
+h3 {
+  height: 43px;
+  text-align: center;
+}
+
 button {
 margin: 5px;
 border: 1px solid black;

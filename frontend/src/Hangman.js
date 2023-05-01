@@ -9,9 +9,11 @@ export default class Hangman extends Component {
     arr: [],
     answered: false,
     counter: 0,
-    errorsCounter: 0
+    errorsCounter: 0,
+    gameWon: false,
+    gameLost: false
   }
-
+   
   handleClick(a, b) {
     if (a !== b) {
       this.setState({
@@ -28,6 +30,17 @@ export default class Hangman extends Component {
         answered: false,
         counter: this.state.counter + 1
       })
+
+      if (this.state.errorsCounter >= 6) {
+        this.setState({
+          gameLost: true,
+          arr: []
+        })
+      } else if (this.state.errorsCounter < 6 && this.state.counter > 8) {
+          this.setState({
+          gameWon: true
+        })
+      }
     }, 1000)
   }
   
@@ -57,12 +70,15 @@ export default class Hangman extends Component {
               <button 
                 key={index} 
                 onClick={() => this.handleClick(ans, question.correct_answer)} 
+                disabled={this.state.answered}
                 className={this.state.answered ? ((ans === question.correct_answer) ? "buttonRight" : "buttonWrong") : "button"}>
                   {ans}
               </button>)}
             </li>)
           }
         </div>
+        {this.state.gameWon && <h2>Has ganado!</h2>}
+        {this.state.gameLost && <h2>Has perdido!</h2>}
       </div>
     );
   }
