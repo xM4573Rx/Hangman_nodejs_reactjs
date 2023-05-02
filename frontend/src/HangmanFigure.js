@@ -1,6 +1,9 @@
+// Import React from react library
 import React from 'react';
+// Import CSS file for Hangman component
 import './Hangman.css';
 
+// Define each body part as a JSX element
 const HEAD = (
     <div key={"0"} 
         style={{
@@ -35,8 +38,8 @@ const RIGHT_ARM = (
         position: "absolute",
         top: "130px",
         right: "85px",
-        rotate: "30deg",
-        transformOrigin: "left bottom"
+        rotate: "30deg",                   // Rotate the element by 30 degrees
+        transformOrigin: "left bottom"     // Set the transform origin to the left bottom corner
     }}/>
 )
 
@@ -49,8 +52,8 @@ const LEFT_ARM = (
         position: "absolute",
         top: "130px",
         right: "175px",
-        rotate: "-30deg",
-        transformOrigin: "right bottom"
+        rotate: "-30deg",                  // Rotate the element by -30 degrees
+        transformOrigin: "right bottom"    // Set the transform origin to the right bottom corner
     }}/>
 )
 
@@ -63,8 +66,8 @@ const RIGHT_LEG = (
         position: "absolute",
         top: "210px",
         right: "85px",
-        rotate: "60deg",
-        transformOrigin: "left bottom"
+        rotate: "60deg",                   // Rotate the element by 60 degrees
+        transformOrigin: "left bottom"     // Set the transform origin to the left bottom corner
     }}/>
 )
 
@@ -77,11 +80,12 @@ const LEFT_LEG = (
         position: "absolute",
         top: "210px",
         right: "175px",
-        rotate: "-60deg",
-        transformOrigin: "right bottom"
+        rotate: "-60deg",                  // Rotate the element by -60 degrees
+        transformOrigin: "right bottom"    // Set the transform origin to the right bottom corner
     }}/>
 )
 
+// Create an array of all the body parts
 const BODY_PARTS = [HEAD, BODY, RIGHT_ARM, LEFT_ARM, RIGHT_LEG, LEFT_LEG]
 
 export default function HangmanFigure({ errors }) {

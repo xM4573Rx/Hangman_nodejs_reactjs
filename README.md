@@ -18,3 +18,7 @@ The game starts by displaying a question to answer. The player click on possible
 - React
 - Bootstrap
 - Axios
+- Mongoose
+- Express
+- Cors
+- Nodemon

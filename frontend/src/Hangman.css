@@ -1,63 +1,52 @@
+/* CSS styles for a Hangman game UI */
 .hangman-container {
-    max-width: 500px;
-    margin: auto;
-    text-align: center;
-  }
-  
-  .word-display {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-  
-  .letter-display {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    border: 1px solid black;
-    text-align: center;
-    line-height: 40px;
-    margin-right: 10px;
-    font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 10px;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
 }
 
+/* The on-screen keyboard */
 .keyboard {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
+/* Heading for the game */
 h3 {
   height: 43px;
   text-align: center;
 }
 
+/* Styling for the buttons */
 button {
-margin: 5px;
-border: 1px solid black;
-font-weight: bold;
-font-size: 20px;
-background-color: #f5f5f5;
-border-radius: 5px;
+  margin: 5px;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
 }
 
+/* Styling for the "correct" button */
 .buttonRight {
   background-color: #9CCC65;
 }
 
+/* Styling for the "incorrect" button */
 .buttonWrong {
   background-color: #EF5350;
 }
 
+/* The figure of the hangman, drawn using CSS */
 .hangman-figure {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
 
+/* Initial state, with no parts of the figure shown */
 .figure-0 .figure-head,
 .figure-0 .figure-body,
 .figure-0 .figure-arm-left,
@@ -67,10 +56,12 @@ border-radius: 5px;
   display: none;
 }
 
+/* The first part of the figure: the head */
 .figure-1 .figure-head {
   display: block;
 }
 
+/* The second part of the figure: the body */
 .figure-2 .figure-head,
 .figure-3 .figure-head,
 .figure-4 .figure-head {
@@ -90,6 +81,7 @@ border-radius: 5px;
   margin: 0 auto;
 }
 
+/* The third part of the figure: the arms */
 .figure-3 .figure-arm-left {
   display: block;
   position: relative;
@@ -110,6 +102,7 @@ border-radius: 5px;
   background-color: #000;
 }
 
+/* The fourth part of the figure: the legs */
 .figure-4 .figure-leg-left {
   display: block;
   position: relative;
