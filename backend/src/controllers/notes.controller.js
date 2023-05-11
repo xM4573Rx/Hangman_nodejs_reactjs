@@ -11,10 +11,11 @@ const QuestionModel = require('../models/question')
 const questions = JSON.parse(fs.readFileSync(require('path').resolve(__dirname, '../utils/data.json')))
 
 // Define a method to set the notes in the database
-notesCtrl.createNotes = async () => {
+notesCtrl.createNotes = async (req, res) => {
     try {
         // Add the questions to the database
         await QuestionModel.create(questions)
+        res.send('Data successfully upload')
         console.log('Data successfully upload')
     } catch (error) {
         // Log an error if there is one

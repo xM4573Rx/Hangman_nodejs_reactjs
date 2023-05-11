@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 // Set the URL for the database connection
 const url = process.env.MONGODB_URI
   ? process.env.MONGODB_URI
-  : 'mongodb://localhost/datatest'
+  : 'mongodb://127.0.0.1/datatest'
 
 // Connect to the database using the URL
 mongoose.connect(url, {})
