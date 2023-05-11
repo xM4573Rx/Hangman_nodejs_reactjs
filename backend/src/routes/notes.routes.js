@@ -5,10 +5,10 @@ const { Router } = require('express')
 const router = Router()
 
 // Require the setNotes and getNotes methods from the notes controller
-const { setNotes, getNotes } = require('../controllers/notes.controller')
+const { createNotes, getNotes } = require('../controllers/notes.controller')
 
 // Uncomment line below for upload data to MongoDB
-// router.route('/').get(setNotes)
+// router.route('/').get(createNotes)
 
 // Comment line below when uploading data to MongoDB
 router.route('/').get(getNotes)

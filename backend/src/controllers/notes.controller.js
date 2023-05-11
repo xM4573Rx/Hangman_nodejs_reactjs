@@ -11,7 +11,7 @@ const QuestionModel = require('../models/question')
 const questions = JSON.parse(fs.readFileSync(require('path').resolve(__dirname, '../utils/data.json')))
 
 // Define a method to set the notes in the database
-notesCtrl.setNotes = async () => {
+notesCtrl.createNotes = async () => {
     try {
         // Add the questions to the database
         await QuestionModel.create(questions)
